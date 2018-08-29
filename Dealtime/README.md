@@ -7,7 +7,7 @@ __STEPS TO DEPLOY WEB APPLICATION__
 5. Copy the downloaded import-export tool war file to the <API\-M\_HOME>/repository/deployment/server/web apps folder\.
 6. Check API\-import\-export\- war version and APIM version with the versions in the conf file \(API\-import\-export\-2\.5\.0\-v1\.war\) at file path  ,DealTime-1.0.0-SNAPSHOT/project/Back\-End/ballerina\.conf file\. If there is a difference, change the versions values to the downloaded versions\.
 
-![image](Readme file images/1.png)
+![image](Readme%20file%20images/1.png)
 
 7. Start the API Manager\.
 
@@ -18,7 +18,7 @@ To start the server, Navigate to the <PRODUCT\_HOME>/bin/wso2server\.sh \(on Lin
 
 - It Import all the APIs and create users, roles and scopes\.  
 
-![image](Readme file images/2)
+![image](Readme%20file%20images/2.png)
 
 __Topics that we can teach using this Web application\.__
 
@@ -36,21 +36,21 @@ Goto the [https://localhost:9443/publisher/](https://localhost:9443/publisher/) 
 
 	Password = publisher123
 
-![image](Readme file images/3)
+![image](Readme%20file%20images/3.png)
 
 - Here we can see all the APIs that we have in the publisher\.
 - To use these APIS in API Store, we have to publish them\.
 
-![image](Readme file images/4)
+![image](Readme%20file%20images/4.png)
 
 - To do that select an API and then navigate to ‘Manage API’
 
-![image](Readme file images/5)
+![image](Readme%20file%20images/5.png)
 
 - Then attach throttling tiers to the API\.
 - You can get more detail about throttling tires from [here](https://docs\.wso2\.com/display/AM250/Setting\+Throttling\+Limits). 
 
-![image](Readme file images/6)
+![image](Readme%20file%20images/6.png)
 
 1. Explain the use of scopes\.
 
@@ -60,29 +60,18 @@ WSO2 API Manager provides a way to enforce role\-based access control mechanism\
 In this web application we are using two scopes\.
 
 	
+![image](Readme%20file%20images/28.png)
 
-| Scope | Web app functionality     | Assigned Roles|
-|-------|---------------------------|---------------|
-|  buy  |    See listed items       | Buyer ,Seller |
-|       |    Add items to cart      |               |
-|       |    checkout items         |               |
-|  sell |    See listed items       | Seller        |
-|       |    Add items to cart      |               |
-|       |    checkout items         |               |
-|       |      See inventory        |               |
-|	    | Add items to the inventory|               |              
-|       
-
-Table 1: Scope to role mapping with Web app functionality
+            Table 1: Scope to role mapping with Web app functionality
 
 
-![image](Readme file images/6)
+![image](Readme%20file%20images/7.png)
 
 Following code shows how the scopes are authorized to access the INVENTORY button\.
 
-![image](Readme file images/7)
+![image](Readme%20file%20images/8.png)
 
-![image](Readme file images/8)
+![image](Readme%20file%20images/9.png)
 
 1. Publish the API\.
 
@@ -90,11 +79,11 @@ Following code shows how the scopes are authorized to access the INVENTORY butto
 
 	
 
-![image](Readme file images/9)
+![image](Readme%20file%20images/10.png)
 
           Publish the rest of the APIs like this\.
 
-![image](Readme file images/10)
+![image](Readme%20file%20images/11.png)
 
 	Consuming the APIs from an Application
 
@@ -102,7 +91,7 @@ Following code shows how the scopes are authorized to access the INVENTORY butto
 
 	After publishing the APIs we can see all the published APIs in the [https://localhost:9443/store/](https://localhost:9443/publisher/)
 
-![image](Readme file images/11)
+![image](Readme%20file%20images/12.png)
 
 1. Create user account on Store\.
 
@@ -114,9 +103,9 @@ Following code shows how the scopes are authorized to access the INVENTORY butto
 
 Name =  DealtimeShoppingApplication 
 
-![image](Readme file images/12)
+![image](Readme%20file%20images/13.png)
 
-![image](Readme file images/14)
+![image](Readme%20file%20images/14.png)
 
 1. Subscribe Application to APIs\.
 
@@ -124,7 +113,7 @@ Go to the APIS and select an API, then in Applications select DealtimeShoppingAp
 
 Similarly, subscribe for all 5 APIS
 
-![image](Readme file images/15)
+![image](Readme%20file%20images/15.png)
 
 1. Generate Keys for Application\.
 
@@ -132,7 +121,7 @@ Similarly, subscribe for all 5 APIS
 
 Go to the Production Keys and click the Generate keys button\.
 
-![image](Readme file images/1.png)
+![image](Readme%20file%20images/16.png)
 
 Then Copy  generated Consumer Key and Consumer Secret\.
 
@@ -140,7 +129,7 @@ Then Copy  generated Consumer Key and Consumer Secret\.
 
 Go to the web\_app/project/Front\-End/host/build/key\_config\.js and paste Consumer Key and Consumer Secret in correct places\.
 
-![image](Readme file images/16)
+![image](Readme%20file%20images/17.png)
 
 1. Click Home button in localhost:8080/setup 
 
@@ -156,20 +145,20 @@ Username \-> buyer                    password \-> buyer123
 
 Browse home page using	[https://localhost:8080/products](https://localhost:8080/products) or clicking home button in previous  [https://localhost:8080/setup](https://localhost:8080/setup) page
 
-![image](Readme file images/17)
+![image](Readme%20file%20images/18.png)
 	
 
 Here ,initially frontend request products details form item API and then API get the items from the backend and list them on the UI\.
 
-![image](Readme file images/18)
+![image](Readme%20file%20images/19.png)
 
 1. Proceed to purchase an Item\. Login as Buyer\. Show that the application does not display seller options, based on scopes\.
 
-![image](Readme file images/19)
+![image](Readme%20file%20images/29.png)
 
 					Login as a buyer
 
-![image](Readme file images/20)
+![image](Readme%20file%20images/21.png)
 
 				Login as a seller
 
@@ -181,12 +170,12 @@ INVENTORY button can only be accessed by the user who logs in as a seller\.
 
 1. Place an order\.
 
-![image](Readme file images/21)
+![image](Readme%20file%20images/22.png)
 
 - Here we use item API to get detail of the item \.
 - Then user can place order and put it in to the cart\. 
 
-![image](Readme file images/22)
+![image](Readme%20file%20images/23.png)
 
 - Then user can go to the cart using cart icon on the top right hand corner \.
 - User can update orders  and remove orders\.
@@ -194,7 +183,7 @@ INVENTORY button can only be accessed by the user who logs in as a seller\.
 
 1. Logout from Buyer\. Describe how the revoke API is used to revoke the token\.
 
-![image](Readme file images/23)
+![image](Readme%20file%20images/24.png)
 
 - Clicking logout button trigger the Revoke API and it revoke the access token from the database\.
 
@@ -202,7 +191,7 @@ INVENTORY button can only be accessed by the user who logs in as a seller\.
 
 options are displayed on the Application based on scopes\.
 
-![image](Readme file images/24)
+![image](Readme%20file%20images/25.png)
 
 - Only seller can access to the Inventory 
 - When seller login using his credentials INVENTORY button appears in top left corner\.
@@ -210,9 +199,9 @@ options are displayed on the Application based on scopes\.
 
 1. Add items to inventory\. Describe how the Inventory API helps\.
 
-![image](Readme file images/25)
+![image](Readme%20file%20images/26.png)
 
-![image](Readme file images/26)
+![image](Readme%20file%20images/27.png)
 
 - When seller add an item, front end call the inventory API and do the  tasks 
 
