@@ -1,0 +1,22 @@
+
+.Button{
+  display: inline-flex;
+  margin: 10px;
+  padding-right:6px;
+  position: center;
+  width: 150px;
+  
+}
+.frame{
+
+display: inline-block; 
+margin: 10px; 
+padding-top: 40px;
+padding-bottom: 30px;
+text-align: center;
+align-items: center;
+
+}
+.wrap{
+text-align: center;
+}

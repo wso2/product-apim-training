@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ser="http://service.ws.um.carbon.wso2.org"
+                  xmlns:xsd="http://common.mgt.user.carbon.wso2.org/xsd">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ser:addUser>
+
+            <ser:userName>seller</ser:userName>
+
+            <ser:credential>seller123</ser:credential>
+
+            <ser:roleList>buyer</ser:roleList>
+            <ser:roleList>seller</ser:roleList>
+
+
+            <ser:profileName>default</ser:profileName>
+
+            <ser:requirePasswordChange>false</ser:requirePasswordChange>
+        </ser:addUser>
+    </soapenv:Body>
+</soapenv:Envelope>
+

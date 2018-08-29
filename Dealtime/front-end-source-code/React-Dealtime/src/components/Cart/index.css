@@ -1,0 +1,47 @@
+
+.product-items {
+  
+  display: flex;
+  justify-content:left;
+  align-items: left;
+  width: auto;
+  padding-top:22px;
+  padding-left: 108px;
+  size: 140px
+}
+
+.product-set{
+
+  position: relative;
+  width: 239px;
+  padding-bottom: 62px;
+
+}
+.button{
+  padding-left: 2px;
+  margin: 1px;
+  display: flex;
+
+}
+.item-form{
+  width: auto;
+  position: absolute;
+  align-items: right;
+  right: -600px;
+  display: flex;
+  bottom: 28px;
+  padding-left: 300px;
+  
+}
+.Update{
+  display: inline-block;           
+    margin: 10px 0;
+    padding-right:6px;
+}
+.checkout{
+  display: inline-flex;           
+    margin: 10px 0;
+    padding-left:870px;
+    
+
+}
