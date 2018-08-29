@@ -1,4 +1,4 @@
-__STEPS TO DEPLOY WEB APPLICATION__
+## STEPS TO DEPLOY WEB APPLICATION
 
 1. Inside the Dealtime folder execute the command mvn clean package
 2. Go to the Dealtime\distribution\target and extract the DealTime-1.0.0-SNAPSHOT.zip.
@@ -13,18 +13,18 @@ __STEPS TO DEPLOY WEB APPLICATION__
 
 To start the server, Navigate to the <PRODUCT\_HOME>/bin/wso2server\.sh \(on Linux/Mac OS\) from the command prompt and execute the command, \./wso2server\.sh
 
-1. Open the terminal window, Navigate to the DealTime-1.0.0-SNAPSHOT/bin directory from the command prompt\. Execute the command, sh start\.sh
-2. Go to the localhost:8080/setup  and click DEPLOY APIS, CREATE ROLES and CREATE USERS  buttons\.
+8. Open the terminal window, Navigate to the DealTime-1.0.0-SNAPSHOT/bin directory from the command prompt\. Execute the command, sh start\.sh
+9. Go to the localhost:8080/setup  and click DEPLOY APIS, CREATE ROLES and CREATE USERS  buttons\.
 
 - It Import all the APIs and create users, roles and scopes\.  
 
 ![image](Readme%20file%20images/2.png)
 
-__Topics that we can teach using this Web application\.__
+### Topics that we can teach using this Web application\.
 
 1. Publishing an API
 2. Consuming the APIs from an Application
-3. Using the Deal Time Web Application\.
+3. Using the DealTime Web Application\.
 
 __Publishing an API__
 
@@ -52,7 +52,7 @@ Goto the [https://localhost:9443/publisher/](https://localhost:9443/publisher/) 
 
 ![image](Readme%20file%20images/6.png)
 
-1. Explain the use of scopes\.
+2.Use of the scopes\.
 
 WSO2 API Manager provides a way to enforce role\-based access control mechanism\. This will facilitate its users to implement a role\-based access control mechanism for each resource in their API\.  
 
@@ -67,47 +67,47 @@ In this web application we are using two scopes\.
 
 ![image](Readme%20file%20images/7.png)
 
-Following code shows how the scopes are authorized to access the INVENTORY button\.
+- Following code shows how the scopes are authorized to access the INVENTORY button\.
 
 ![image](Readme%20file%20images/8.png)
 
 ![image](Readme%20file%20images/9.png)
 
-1. Publish the API\.
+3. Publish the API\.
 
-	Then click Save & Publish button to publish the API\.
+- Then click Save & Publish button to publish the API\.
 
 	
 
 ![image](Readme%20file%20images/10.png)
 
-          Publish the rest of the APIs like this\.
+- Publish the rest of the APIs like this.
 
 ![image](Readme%20file%20images/11.png)
 
-	Consuming the APIs from an Application
+__Consuming the APIs from an Application__
 
 1. Browse API Store and find APIs\.
 
-	After publishing the APIs we can see all the published APIs in the [https://localhost:9443/store/](https://localhost:9443/publisher/)
+- After publishing the APIs we can see all the published APIs in the [https://localhost:9443/store/](https://localhost:9443/publisher/)
 
 ![image](Readme%20file%20images/12.png)
 
-1. Create user account on Store\.
+2. Create user account on Store\.
 
 	SignUp in Api Store and then sign in using username and password that you provide\.
 
-1. Create Application\.
+3. Create Application\.
 
 	Go to the APPLICATION and create new application by navigating to ADD APPLICATION
 
-Name =  DealtimeShoppingApplication 
+			Name =  DealtimeShoppingApplication 
 
 ![image](Readme%20file%20images/13.png)
 
 ![image](Readme%20file%20images/14.png)
 
-1. Subscribe Application to APIs\.
+4. Subscribe Application to APIs\.
 
 Go to the APIS and select an API, then in Applications select DealtimeShoppingApplication then select a Tier then click Subscribe to subscribe for particular API
 
@@ -115,46 +115,46 @@ Similarly, subscribe for all 5 APIS
 
 ![image](Readme%20file%20images/15.png)
 
-1. Generate Keys for Application\.
+5. Generate Keys for Application\.
 
          Go to the APPLICATION and select DealtimeShoppingApplication\.
 
-Go to the Production Keys and click the Generate keys button\.
+- Go to the Production Keys and click the Generate keys button\.
 
 ![image](Readme%20file%20images/16.png)
 
-Then Copy  generated Consumer Key and Consumer Secret\.
+- Then Copy  generated Consumer Key and Consumer Secret\.
 
-1. Embed application keys in React Web App\.
+6. Embed application keys in React Web App\.
 
-Go to the web\_app/project/Front\-End/host/build/key\_config\.js and paste Consumer Key and Consumer Secret in correct places\.
+- Go to the web\_app/project/Front\-End/host/build/key\_config\.js and paste Consumer Key and Consumer Secret in correct places\.
 
 ![image](Readme%20file%20images/17.png)
 
-1. Click Home button in localhost:8080/setup 
+7. Click Home button in localhost:8080/setup 
 
-For login with different users use this  usernames and passwords 
+- For login with different users use this  usernames and passwords 
 
-Username \-> seller                    password \-> seller123
+		Username \-> seller           password \-> seller123
 
-Username \-> buyer                    password \-> buyer123
+		Username \-> buyer             password \-> buyer123
 
-	03\.Using the DealTime Web Application\.
+__Using the DealTime Web Application\.__
 
-1. Browse home page\. Describe how unsecured resources in the Item API help in listing items
+1. Browse home page\. 
 
 Browse home page using	[https://localhost:8080/products](https://localhost:8080/products) or clicking home button in previous  [https://localhost:8080/setup](https://localhost:8080/setup) page
 
 ![image](Readme%20file%20images/18.png)
 	
 
-Here ,initially frontend request products details form item API and then API get the items from the backend and list them on the UI\.
+- Here ,initially frontend request products details form item API and then API get the items from the backend and list them on the UI\.
 
 ![image](Readme%20file%20images/19.png)
 
-1. Proceed to purchase an Item\. Login as Buyer\. Show that the application does not display seller options, based on scopes\.
+2. Proceed to purchase an Item\. Login as Buyer\. Show that the application does not display seller options, based on scopes\.
 
-![image](Readme%20file%20images/29.png)
+![image](Readme%20file%20images/20.png)
 
 					Login as a buyer
 
@@ -162,13 +162,13 @@ Here ,initially frontend request products details form item API and then API get
 
 				Login as a seller
 
-If we login as a buyer we cannot see the INVENTORY button at the top left corner\.
+- If we login as a buyer we cannot see the INVENTORY button at the top left corner\.
 
-INVENTORY button can only be accessed by the user who logs in as a seller\.
+- INVENTORY button can only be accessed by the user who logs in as a seller\.
 
  
 
-1. Place an order\.
+3. Place an order\.
 
 ![image](Readme%20file%20images/22.png)
 
@@ -181,15 +181,13 @@ INVENTORY button can only be accessed by the user who logs in as a seller\.
 - User can update orders  and remove orders\.
 - When user checkout orders it call the order API\.
 
-1. Logout from Buyer\. Describe how the revoke API is used to revoke the token\.
+4. Logout from Buyer\. 
 
 ![image](Readme%20file%20images/24.png)
 
 - Clicking logout button trigger the Revoke API and it revoke the access token from the database\.
 
-1. Proceed to add items to inventory\. Login as seller\. Describe how seller 
-
-options are displayed on the Application based on scopes\.
+5. Proceed to add items to inventory\.
 
 ![image](Readme%20file%20images/25.png)
 
@@ -197,7 +195,7 @@ options are displayed on the Application based on scopes\.
 - When seller login using his credentials INVENTORY button appears in top left corner\.
 - We achieve this functionality by using scopes\.
 
-1. Add items to inventory\. Describe how the Inventory API helps\.
+6. Add items to inventory\. Describe how the Inventory API helps\.
 
 ![image](Readme%20file%20images/26.png)
 
