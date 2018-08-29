@@ -1,6 +1,8 @@
 ## STEPS TO DEPLOY WEB APPLICATION
 
-1. Inside the Dealtime folder execute the command mvn clean package
+
+1. Get a clone or download the source from this repository
+1. Inside the source go to the Dealtime folder and execute the command mvn clean package
 2. Go to the Dealtime\distribution\target and extract the DealTime-1.0.0-SNAPSHOT.zip.
 3. Download the latest version of the API Manager from [here](https://wso2\.com/api\-management/).
 4. Download the latest WSO2 API import/export tool \(api\-import\-export\<version>.war\) from [here](https://docs.wso2.com/download/attachments/92522276/api-import-export-2.5.0-v1.war?version=2&modificationDate=1530699446000&api=v2)
