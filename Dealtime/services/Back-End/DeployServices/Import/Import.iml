@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="BALLERINA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Ballerina 0.980.1" jdkType="Ballerina SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="BALLERINA_REPOSITORY &lt;Import&gt;" level="project" />
+    <orderEntry type="library" name="BALLERINA_REPOSITORY &lt;Import&gt;" level="project" />
+  </component>
+</module>

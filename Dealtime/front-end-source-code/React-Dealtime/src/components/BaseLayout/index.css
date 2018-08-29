@@ -1,0 +1,24 @@
+.content {
+  background-color: rgb(255, 255, 255);
+}
+
+.first-header {
+  background: url('https://image.ibb.co/feSMgy/shutterstock_297265427.jpg');
+}
+
+.second-header {
+  background: url('https://image.ibb.co/fuqUZJ/summer_sunglasses_hd_wallpapers.jpg');
+}
+
+.third-header {
+  background: url('https://image.ibb.co/fBOiuJ/Printed_HD_T_165_M_165_F_HR.jpg');
+}
+
+
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
