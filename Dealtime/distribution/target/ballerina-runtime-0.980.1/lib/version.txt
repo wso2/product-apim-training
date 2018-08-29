@@ -1,1 +1,0 @@
-Ballerina Runtime version: 0.980.1
