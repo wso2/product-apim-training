@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cf8e3be-78a7-41b7-87a2-baab267004a1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Dealtime/distribution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dealtime/distribution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dealtime/distribution/src/main/assembly/bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dealtime/distribution/src/main/assembly/bin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dealtime/front-end-source-code/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dealtime/front-end-source-code/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dealtime/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Dealtime/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +28,66 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dealtime/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="39" column="62" selection-end-line="62" selection-end-column="10" />
+            <state relative-caret-position="322">
+              <caret line="40" column="61" selection-end-line="62" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="start.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dealtime/bin/start.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dealtime/distribution/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="41" selection-end-line="86" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InventoryAPI_1.0.0.zip" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dealtime/exported-APIs/InventoryAPI_1.0.0.zip">
+          <provider selected="true" editor-type-id="apk-viewer" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dealtime/front-end-source-code/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-139">
+              <caret line="37" column="17" selection-end-line="91" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dealtime/html-files/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bin.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dealtime/distribution/src/main/assembly/bin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -43,12 +101,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Dealtime/pom.xml" />
+        <option value="$PROJECT_DIR$/Dealtime/distribution/pom.xml" />
+        <option value="$PROJECT_DIR$/Dealtime/distribution/src/main/assembly/bin.xml" />
+        <option value="$PROJECT_DIR$/Dealtime/front-end-source-code/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="745" />
-    <option name="y" value="164" />
+    <option name="x" value="257" />
+    <option name="y" value="79" />
     <option name="width" value="1449" />
     <option name="height" value="909" />
   </component>
@@ -71,6 +132,67 @@
               <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
               <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="distribution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="exported-APIs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end-source-code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end-source-code" type="462c0819:PsiDirectoryNode" />
+              <item name="React-Dealtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="product-apim-training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="product-apim-training" type="462c0819:PsiDirectoryNode" />
+              <item name="Dealtime" type="462c0819:PsiDirectoryNode" />
+              <item name="html-files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,8 +276,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="745" y="164" width="1449" height="909" extended-state="0" />
-    <editor active="true" />
+    <frame x="572" y="32" width="1449" height="909" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -167,10 +288,10 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="CheckStyle" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32953104" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22743426" />
       <window_info anchor="bottom" id="SonarLint" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -193,12 +314,53 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dealtime/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Dealtime/bin/start.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="39" column="62" selection-end-line="62" selection-end-column="10" />
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dealtime/distribution/src/main/assembly/bin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dealtime/distribution/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="41" selection-end-line="86" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dealtime/exported-APIs/InventoryAPI_1.0.0.zip">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dealtime/front-end-source-code/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="37" column="17" selection-end-line="91" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dealtime/html-files/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dealtime/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="40" column="61" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
