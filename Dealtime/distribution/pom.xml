@@ -17,7 +17,8 @@
   ~  under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.wso2.carbon.apimgt.demoAPP</groupId>
@@ -29,7 +30,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>dealtime-zip</artifactId>
     <packaging>pom</packaging>
-    <name>WSO2 API Manager DealTime demoAPP - Distribution </name>
+    <name>WSO2 API Manager DealTime demoAPP - Distribution</name>
     <description>WSO2 API Manager DealTime demoAPP Distribution</description>
 
     <build>
@@ -46,8 +47,10 @@
                             <goal>wget</goal>
                         </goals>
                         <configuration>
-                            <url>https://product-dist.ballerina.io/downloads/${ballerina.platform.version}/ballerina-runtime-${ballerina.platform.version}.zip</url>
-                          
+                            <url>
+                                https://product-dist.ballerina.io/downloads/${ballerina.platform.version}/ballerina-runtime-${ballerina.platform.version}.zip
+                            </url>
+
                             <unpack>true</unpack>
                             <outputDirectory>${project.build.directory}/</outputDirectory>
                         </configuration>
@@ -79,7 +82,6 @@
             </plugin>
         </plugins>
     </build>
-
 
 
 </project>
