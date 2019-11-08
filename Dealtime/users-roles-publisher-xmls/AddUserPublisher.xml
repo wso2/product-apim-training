@@ -7,15 +7,11 @@
         <ser:addUser>
 
             <ser:userName>publisher</ser:userName>
-
             <ser:credential>publisher123</ser:credential>
-
             <ser:roleList>Internal/publisher</ser:roleList>
-
             <ser:profileName>default</ser:profileName>
-
             <ser:requirePasswordChange>false</ser:requirePasswordChange>
+
         </ser:addUser>
     </soapenv:Body>
 </soapenv:Envelope>
-
