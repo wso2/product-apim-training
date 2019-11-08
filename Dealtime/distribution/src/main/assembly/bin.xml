@@ -71,9 +71,6 @@
             <directory>${basedir}/../html-files</directory>
             <outputDirectory>project/Front-End/host/build</outputDirectory>
         </fileSet>
-
-
     </fileSets>
-
 
 </assembly>
