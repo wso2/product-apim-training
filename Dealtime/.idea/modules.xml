@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dealtime.iml" filepath="$PROJECT_DIR$/dealtime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/front-end-source-code/dealtime-front-end-zip.iml" filepath="$PROJECT_DIR$/front-end-source-code/dealtime-front-end-zip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/dealtime-zip.iml" filepath="$PROJECT_DIR$/distribution/dealtime-zip.iml" />
+    </modules>
+  </component>
+</project>
