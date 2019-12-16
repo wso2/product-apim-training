@@ -1,1 +1,1 @@
-# product-apim-trainin
+# product-apim-training
