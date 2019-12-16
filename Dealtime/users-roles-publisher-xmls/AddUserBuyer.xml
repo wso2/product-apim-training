@@ -7,16 +7,11 @@
         <ser:addUser>
 
             <ser:userName>buyer</ser:userName>
-
             <ser:credential>buyer123</ser:credential>
-
             <ser:roleList>buyer</ser:roleList>
-
-
             <ser:profileName>default</ser:profileName>
-
             <ser:requirePasswordChange>false</ser:requirePasswordChange>
+
         </ser:addUser>
     </soapenv:Body>
 </soapenv:Envelope>
-

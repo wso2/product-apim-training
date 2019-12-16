@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright (c) WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
+  ~ Copyright (c) 2018, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
   ~
   ~ WSO2 Inc. licenses this file to you under the Apache License,
   ~ Version 2.0 (the "License"); you may not use this file except
@@ -32,12 +32,12 @@
         <fileSet>
             <directory>${basedir}/../services/Back-End</directory>
             <outputDirectory>project/Back-End</outputDirectory>
-             <excludes>
+            <excludes>
                 <exclude>**/ballerina-internal.log/**</exclude>
-                 <exclude>**/gateway.pid/**</exclude>
-                  <exclude>**/sample.pid/**</exclude>
-                  <exclude>**/ballerina-internal.log.1/**</exclude>
-                  
+                <exclude>**/gateway.pid/**</exclude>
+                <exclude>**/sample.pid/**</exclude>
+                <exclude>**/ballerina-internal.log.1/**</exclude>
+
             </excludes>
         </fileSet>
         <fileSet>
@@ -45,10 +45,10 @@
             <outputDirectory>project/Front-End</outputDirectory>
             <excludes>
                 <exclude>**/ballerina-internal.log/**</exclude>
-                 <exclude>**/gateway.pid/**</exclude>
-                  <exclude>**/sample.pid/**</exclude>
-                  <exclude>**/ballerina-internal.log.1/**</exclude>
-                  
+                <exclude>**/gateway.pid/**</exclude>
+                <exclude>**/sample.pid/**</exclude>
+                <exclude>**/ballerina-internal.log.1/**</exclude>
+
             </excludes>
         </fileSet>
         <fileSet>
@@ -67,14 +67,10 @@
             <directory>${basedir}/../front-end-source-code/React-Dealtime/build</directory>
             <outputDirectory>project/Front-End/host/build</outputDirectory>
         </fileSet>
-         <fileSet>
+        <fileSet>
             <directory>${basedir}/../html-files</directory>
             <outputDirectory>project/Front-End/host/build</outputDirectory>
         </fileSet>
-
-
     </fileSets>
-
-   
 
 </assembly>

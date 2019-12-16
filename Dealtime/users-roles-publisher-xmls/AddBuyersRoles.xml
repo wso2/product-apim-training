@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.ws.um.carbon.wso2.org" xmlns:xsd="http://dao.service.ws.um.carbon.wso2.org/xsd">
-   <soapenv:Header />
-   <soapenv:Body>
-      <ser:addRole>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ser="http://service.ws.um.carbon.wso2.org"
+                  xmlns:xsd="http://dao.service.ws.um.carbon.wso2.org/xsd">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ser:addRole>
 
-         <ser:roleName>buyer</ser:roleName>
+            <ser:roleName>buyer</ser:roleName>
 
-         <ser:permissions>
+            <ser:permissions>
+                <xsd:action>ui.execute</xsd:action>
+                <xsd:resourceId>/permission/admin/login</xsd:resourceId>
+            </ser:permissions>
 
-            <xsd:action>ui.execute</xsd:action>
+        </ser:addRole>
 
-            <xsd:resourceId>/permission/admin/login</xsd:resourceId>
-
-         </ser:permissions>
-
-      </ser:addRole>
-
-
-   </soapenv:Body>
+    </soapenv:Body>
 </soapenv:Envelope>
-
-
-

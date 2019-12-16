@@ -17,7 +17,8 @@
   ~  under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
         <groupId>org.wso2.carbon.apimgt.demoAPP</groupId>
@@ -29,12 +30,12 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>dealtime-front-end-zip</artifactId>
     <packaging>pom</packaging>
-    <name>WSO2 API Manager DealTime demoAPP - front-end </name>
+    <name>WSO2 API Manager DealTime demoAPP - front-end</name>
     <description>WSO2 API Manager DealTime demoAPP front-end</description>
 
 
     <build>
-        <plugins>      
+        <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -54,7 +55,7 @@
                             </arguments>
                         </configuration>
                     </execution>
-                   
+
                     <execution>
                         <id>npm run build (compile)</id>
                         <goals>
@@ -70,13 +71,13 @@
                             </arguments>
                         </configuration>
                     </execution>
-                    
+
                 </executions>
                 <configuration>
                     <workingDirectory>${npm.working.dir}</workingDirectory>
                 </configuration>
             </plugin>
-             
+
         </plugins>
     </build>
 
